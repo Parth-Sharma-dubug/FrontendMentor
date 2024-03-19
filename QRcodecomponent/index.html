@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Outfit:wght@100..900&family=VT323&display=swap" rel="stylesheet">
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(220, 15%, 55%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Outfit", sans-serif;
+  /* font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; */
+}
+.box{
+    height: auto;
+    width: auto;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+#qrimg{
+    height: 270px;
+    width: 280px;
+    border-radius: 15px;
+    margin: 20px;
+
+}
+#heading{
+    color: hsl(218, 44%, 22%);
+    font-size: 20px;
+    font-weight: 700;
+}
+#para{
+    color: hsl(212, 45%, 89%);
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="/QRcodecomponent/image-qr-code.png" alt="" id="qrimg">
+            <h2 id="heading">Improve your front-end <br>skills by building projects</h2>
+            <p id="para">Scan the QR code to visit Frontend </br>Mentor and take your coding skills to <br>the next level</p>
+        </div>
+    </div>
+</body>
+</html>
